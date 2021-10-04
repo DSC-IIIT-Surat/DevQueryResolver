@@ -4,7 +4,7 @@
   "description": "A NodeJS backend to help the budding developers with guided resources",
   "main": "index.js",
   "scripts": {
-    "test": "node test/db.js",
+    "test": "mocha",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },

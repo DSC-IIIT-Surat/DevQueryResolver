@@ -1,11 +1,7 @@
-const expect = require("chai").expect;
+/**
+ * Module dependencies.
+ */
+const process = require("process");
+const { checkMongoDBConnection } = require("./db");
 
-function establishMongoDBConnection() {
-  return true;
-}
-
-describe("Check the mongodb connection", () => {
-  it("Is MongoDB connection established?", () => {
-    expect(establishMongoDBConnection()).to.equal(true);
-  });
-});
+checkMongoDBConnection();

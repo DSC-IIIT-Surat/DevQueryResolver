@@ -9,6 +9,7 @@
   > ![Dependency Format](media/DepFormat.png)
 
 - Use asynchonous functions for the query resulution from database.
+- Put meaningful comments in the code, PR and commit messages.
 - Use the below format for development environment.
 
 > ```MONGO_USER=<your-username>
