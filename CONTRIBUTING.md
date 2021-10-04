@@ -10,4 +10,10 @@
 
 - Use asynchonous functions for the query resulution from database.
 - Use the below format for development environment.
-  > `print("Hello World")`
+
+> ```MONGO_USER=<your-username>
+> MONGO_PASSWORD=<your-password>
+> MONGO_HOST=cluster0.<ff>.mongodb.net
+> MONGO_DATABASE=userdb
+> PORT=8000
+> ```
