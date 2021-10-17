@@ -8,6 +8,8 @@ checkMongoDBConnection();
 const port = 5000;
 app.use(express.json());
 
+// routes
+app.use("/api/auth",require("./routes/auth"));
 app.use("/api/article",require('./articles'));
 app.use("/api/project",require('./project'));
 app.use("/api/video",require('./video'));
